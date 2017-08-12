@@ -1,0 +1,3 @@
+[submodule "ec2-sizes-core"]
+	path = ec2-sizes-core
+	url = https://github.com/ZuluPro/ec2-sizes.git
