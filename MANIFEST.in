@@ -1,2 +1,3 @@
 include README.rst
-include ec2_sizes/ec2-sizes.json
+include ec2_sizes/*.json
+include ec2_sizes/*.pkl
