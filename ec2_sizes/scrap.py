@@ -50,11 +50,11 @@ def dump():
     with open('ec2-sizes.json', 'w') as fd:
         fd.write(flavors)
     with open('ec2-sizes.pkl', 'wb') as fd:
-        pickle.dump(flavors, fd)
+        pickle.dump(flavors, fd, protocol=2)
     with open('ec2-regions.json', 'w') as fd:
         fd.write(regions)
     with open('ec2-regions.pkl', 'wb') as fd:
-        pickle.dump(regions, fd)
+        pickle.dump(regions, fd, protocol=2)
 
 
 if __name__ == '__main__':
